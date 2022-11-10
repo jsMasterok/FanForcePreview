@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/fanForce.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="min-h-screen w-screen flex flex-col justify-between px-7 pt-10 pb-14 relative">
+        <div class="w-fit flex flex-row gap-4 items-center">
+            <a href="./index.htm">
+                <img src="../img/Arrow - Left.svg" alt="Arrow">
+            </a>
+            <h1 class="font-jakarta text-2xl font-bold text-grayscale-900">
+                Verify email
+            </h1>
+        </div>
+        <div class="w-full flex flex-col gap-14">
+            <a href="#" class="text-center text-base font-semibold font-urbanist text-primary-500">
+                Wrong email?
+            </a>
+            <div class="flex flex-row justify-between items-center">
+                <input type="number" value="8"
+                    class="w-20 h-16 rounded-xl bg-primary-500 border border-primary-500 outline-primary-500 transition-colors text-grayscale-50 font-bold text-2xl font-jakarta py-4 px-8">
+                <input type="number" value="5"
+                    class="w-20 h-16 rounded-xl bg-primary-500 border border-primary-500 outline-primary-500 transition-colors text-grayscale-50 font-bold text-2xl font-jakarta py-4 px-8">
+                <input type="number" value=""
+                    class="w-20 h-16 rounded-xl bg-grayscale-50 border border-grayscale-200 outline-primary-500 transition-colors text-grayscale-900 font-bold text-2xl font-jakarta py-4 px-8">
+                <input type="number" value=""
+                    class="w-20 h-16 rounded-xl bg-grayscale-50 border border-grayscale-200 outline-primary-500 transition-colors text-grayscale-900 font-bold text-2xl font-jakarta py-4 px-8">
+            </div>
+            <div
+                class="text-center justify-center flex flex-row items-center font-urbanist text-base font-normal text-grayscale-900 gap-1">
+                Resend code in<span class="text-primary-500">42</span>s
+            </div>
+        </div>
+        <button type="submit"
+            class="bg-primary-500 rounded-2xl h-14 flex items-center justify-center cursor-pointer text-white text-base font-bold uppercase transition-all ">
+            Verify
+        </button>
+    </form>
+</body>
