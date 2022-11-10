@@ -1,8 +1,8 @@
 {
   "name": "fanforce",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.htm",
+  "description": "Preview For test",
+  "main": "./docs/index.htm",
   "scripts": {
     "start": "npx tailwindcss -i ./css/index.css -o ./css/fanForce.css --watch",
     "build": "npx tailwindcss -i ./css/index.css -o ./css/fanForce.css"
