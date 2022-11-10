@@ -4,8 +4,8 @@
   "description": "Preview For test",
   "main": "./docs/index.htm",
   "scripts": {
-    "start": "npx tailwindcss -i ./css/index.css -o ./css/fanForce.css --watch",
-    "build": "npx tailwindcss -i ./css/index.css -o ./css/fanForce.css"
+    "start": "npx tailwindcss -i ./css/index.css -o ./docs/fanForce.css --watch",
+    "build": "npx tailwindcss -i ./css/index.css -o ./docs/fanForce.css"
   },
   "author": "",
   "license": "ISC",
