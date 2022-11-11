@@ -29,12 +29,15 @@ module.exports = {
       "secondary-300": "#FFE566",
       "secondary-200": "#FFED99",
       "secondary-100": "#FFFBE6",
+      // Statuses
       succes: "#4ADE80",
       info: "#246BFD",
       warning: "#FACC15",
       error: "#F75555",
       disabled: "#D8D8D8",
       "disabled-button": "#E98090",
+      //
+      // Gray-scale
       "grayscale-900": "#212121",
       "grayscale-800": "#424242",
       "grayscale-700": "#616161",
@@ -45,9 +48,13 @@ module.exports = {
       "grayscale-200": "#EEEEEE",
       "grayscale-100": "#F5F5F5",
       "grayscale-50": "#FAFAFA",
+      //
+      // dark
       "dark-1": "#1A1B22",
       "dark-2": "#23252F",
       "dark-3": "#2A2B39",
+      //
+      // Others
       white: "#FFFFFF",
       black: "#000000",
       red: "#F54336",
@@ -68,9 +75,14 @@ module.exports = {
       "deep-orange": "#FF5726",
       brown: "#7A5548",
       "blue-gray": "#607D8A",
+      //
+      // Colors Missing in Palitra
       "card-shadow-2": "#04060F0D",
       "button-shadow-1": "#246BFD40",
       "gray-id-card": "#C4C4C4",
+      "mobile-nav-bg": "#F6F4F4",
+      "mobile-nav-text": "#9DB2CE",
+      //
     },
     fontFamily: {
       urbanist: ["Urbanist", "sans-serif"],
@@ -84,6 +96,7 @@ module.exports = {
       },
       borderRadius: {
         "4xl": "2.75rem",
+        "5xl": "2rem",
         "6xl": "6rem",
       },
     },
