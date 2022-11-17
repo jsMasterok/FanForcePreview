@@ -13,45 +13,52 @@
 </head>
 
 <body>
-    <div class="min-h-screen w-screen flex flex-col  px-7 pt-10 pb-14  overflow-y-auto overflow-x-hidden">
-        <a href="./index.htm">
-            <img src="./img/Arrow - Left.svg" alt="Back">
-        </a>
-        <div class="w-36 h-36 flex items-center justify-center mx-auto mt-8">
-            <img src="./img/logo.png" alt="Logo" class="w-100 h-100">
-        </div>
-        <div class="w-fit h-fit flex flex-row items-center justify-center mx-auto gap-2 mt-2">
-            <span class="font-urbanist text-grayscale-500 text-sm font-normal">
-                Already have an account?
-            </span>
-            <a href="#" class="text-sm font-semibold text-primary-500 font-urbanist">
-                Sign In
-            </a>
-        </div>
-        <div class="w-full flex flex-col gap-4 mt-2">
-            <a href="#"
-                class="w-full flex flex-row items-center justify-center gap-3 bg-white rounded-2xl border border-grayscale-200 h-14">
-                <img src="./img/fanForce.svg" alt="Logo">
-                <span class="font-urbanist text-base text-grayscale-900 font-semibold">
-                    Log In with Fanforce
+    <div
+        class="h-full min-h-screen w-screen flex flex-col  px-7 pt-10 pb-14  overflow-y-auto overflow-x-hidden relative">
+        <h1 class="font-bold text-3xl text-grayscale-900 font-jakarta text-center">
+            Order Exclusives
+        </h1>
+        <div class="w-full flex flex-row items-start mt-4 gap-2">
+            <div class="h-32 w-32 rounded-xl overflow-hidden relative flex items-center justify-start">
+                <!-- Blur for photo -->
+                <div
+                    class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
+                    <img src="./img/UnpaidLock.svg" alt="Lock" class="">
+                </div>
+                <!--  -->
+                <img class="w-full h-full"
+                    src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
+                    alt="Girl">
+            </div>
+            <div class="w-auto flex flex-col items-start gap-2">
+                <h3 class="text-primary-500 font-jakarta font-bold text-xl">
+                    julia-adaline
+                </h3>
+                <span class="font-urbanist font-semibold text-sm text-grayscale-900">
+                    Exclusive Image/Video <br> (Instant Access)
                 </span>
-            </a>
+                <span class="uppercase text-grayscale-900 font-bold font-jakarta text-xl">
+                    $2.99 usd
+                </span>
+            </div>
+        </div>
+        <div class="w-full flex flex-col gap-4 mt-8">
             <a href="#"
                 class="w-full flex flex-row items-center justify-center gap-3 bg-white rounded-2xl border border-grayscale-200 h-14">
                 <img src="./img/Google.svg" alt="Logo">
                 <span class="font-urbanist text-base text-grayscale-900 font-semibold">
-                    Log In with Google
+                    Continue with Google
                 </span>
             </a>
             <a href="#"
                 class="w-full flex flex-row items-center justify-center gap-3 bg-white rounded-2xl border border-grayscale-200 h-14">
                 <img src="./img/Twitter.svg" alt="Logo">
                 <span class="font-urbanist text-base text-grayscale-900 font-semibold">
-                    Log in with Twitter
+                    Continue with Twitter
                 </span>
             </a>
         </div>
-        <div class="w-full mt-8 flex flex-row items-center justify-center gap-4">
+        <div class="w-full  flex flex-row items-center justify-center gap-4 mt-12">
             <span class="w-full h-px bg-grayscale-200"></span>
             <span class="text-grayscale-700 font-urbanist text-lg font-semibold">
                 or
@@ -76,15 +83,26 @@
             </div>
             <button type="submit"
                 class="bg-primary-500 rounded-2xl h-14 flex items-center justify-center cursor-pointer text-white text-base font-bold uppercase transition-all ">
-                JOIN GOT.FANS
+                create account
             </button>
         </form>
-        <div class="flex flex-col w-full gap-2 items-center justify-center mt-2">
-            <span class="text-sm font-normal text-grayscale-500 font-urbanist">
-                By clicking “Sign Up” you agree to our 
+        <label class="flex items-start flex-row gap-3 mt-16">
+            <input type="checkbox" class="p-0 m-0 w-6 h-6 border-2 border-primary-500 ">
+            <p class="p-0 m-0 font-urbanist text-grayscale-900 text-sm font-medium">
+                By clicking on JOIN <a class="text-primary-500" href="#">GOT.FANS</a>, I acknowledge that I am 18+ years
+                old and accept both the
+                <a href="#" class="text-primary-500">
+                    Terms of Service
+                    & Privacy Policy
+                </a>
+            </p>
+        </label>
+        <div class="flex items-center justify-center gap-2 mt-10">
+            <span class="font-urbanist font-normal text-sm text-grayscale-500">
+                Already have an account?
             </span>
-            <a href="#" class="text-sm font-semibold text-primary-500 font-urbanist">
-                Terms of Service, Privacy Policy & Cookies Policy
+            <a href="#" class="font-urbanist font-semibold text-sm text-primary-500">
+                Sign In
             </a>
         </div>
     </div>

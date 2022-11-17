@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fanForce.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-fit h-fit relative">
+        <div class="fixed bg-black bg-opacity-70 w-full h-full flex items-center justify-center z-20">
+            <div class="flex flex-col w-85 rounded-3xl bg-white p-8 gap-8">
+                <h3 class="font-normal font-urbanist text-base text-grayscale-900 text-center">
+                    We’ll only ever use your address to verify you credit card.
+                </h3>
+                <a href="#" class="text-primary-500 font-urbanist font-semibold text-sm text-center">
+                    Find out how we protect your privacy
+                </a>
+                <a href="./index.htm"
+                    class="w-full bg-primary-500 rounded-6xl h-14 flex items-center justify-center font-urbanist text-base font-bold text-white uppercase">
+                    Got it
+                </a>
+            </div>
+        </div>
+        <div class="h-full min-h-screen w-screen flex flex-col  px-7 pt-10 pb-14  overflow-y-auto overflow-x-hidden">
+            <h1 class="font-bold text-3xl text-grayscale-900 font-jakarta text-center">
+                Complete Order
+            </h1>
+            <div class="w-full flex flex-row items-start mt-4 gap-2">
+                <div class="h-32 w-32 rounded-xl overflow-hidden relative flex items-center justify-start">
+                    <!-- Blur for photo -->
+                    <div
+                        class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
+                        <img src="./img/UnpaidLock.svg" alt="Lock" class="">
+                    </div>
+                    <!--  -->
+                    <img class="w-full h-full"
+                        src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
+                        alt="Girl">
+                </div>
+                <div class="w-auto flex flex-col items-start gap-2">
+                    <h3 class="text-primary-500 font-jakarta font-bold text-xl">
+                        julia-adaline
+                    </h3>
+                    <span class="font-urbanist font-semibold text-sm text-grayscale-900">
+                        Exclusive Image/Video <br> (Instant Access)
+                    </span>
+                    <span class="uppercase text-grayscale-900 font-bold font-jakarta text-xl">
+                        $2.99 usd
+                    </span>
+                </div>
+            </div>
+            <form method="post" class="w-full flex flex-col mt-8 gap-5">
+                <input type="text"
+                    class="w-full bg-grayscale-50 rounded-xl p-5 capitalize outline-none text-grayscale-900 font-semibold placeholder:text-grayscale-500 font-urbanist placeholder:font-normal text-sm"
+                    placeholder="Cardholder Name">
+                <input type="number"
+                    class="w-full bg-grayscale-50 rounded-xl p-5 capitalize outline-none text-grayscale-900 font-semibold placeholder:text-grayscale-500 font-urbanist placeholder:font-normal text-sm"
+                    placeholder="Card Number">
+                <div class="w-full flex items-center justify-between gap-5">
+                    <input type="text"
+                        class="w-full rounded-xl p-5 bg-grayscale-50 text-grayscale-900 font-semibold placeholder:text-grayscale-500 font-urbanist placeholder:font-normal text-sm outline-none"
+                        placeholder="MM/YY">
+                    <div class="w-full p-5 bg-grayscale-50 flex rounded-xl items-center justify-between gap-1">
+                        <input type="number" placeholder="CVC"
+                            class="w-full bg-grayscale-50 text-grayscale-900 font-semibold placeholder:text-grayscale-500 font-urbanist placeholder:font-normal text-sm outline-none ">
+                        <button type="button" class="w-4 h-4 overflow-hidden flex items-center justify-center">
+                            <img src="./img/Info Circle.svg" alt="Info" class="w-full h-full block">
+                        </button>
+                    </div>
+                </div>
+                <div class="w-filt flex items-center justify-start gap-1">
+                    <h4 class="font-urbanist font-semibold text-lg text-grayscale-900 ">
+                        Address Details
+                    </h4>
+                    <button type="button" class="w-4 h-4 overflow-hidden flex items-center justify-center">
+                        <img src="./img/Info Circle.svg" alt="Info" class="w-full h-full block">
+                    </button>
+                </div>
+                <div class="w-full p-5 bg-grayscale-50 flex rounded-xl items-center justify-between gap-1">
+                    <input type="text" placeholder="Country"
+                        class="w-full bg-grayscale-50 text-grayscale-500 font-urbanist font-normal  text-sm outline-none ">
+                    <button type="button" class="w-4 h-4 overflow-hidden flex items-center justify-center">
+                        <img src="./img/Arrow - Down 2.svg" alt="Arrow" class="w-full h-full block">
+                    </button>
+                </div>
+                <input type="text"
+                    class="w-full rounded-xl p-5 bg-grayscale-50 text-grayscale-900 font-semibold placeholder:text-grayscale-500 font-urbanist placeholder:font-normal text-sm outline-none"
+                    placeholder="Address">
+                <input type="text"
+                    class="w-full rounded-xl p-5 bg-grayscale-50 text-grayscale-900 font-semibold placeholder:text-grayscale-500 font-urbanist placeholder:font-normal text-sm outline-none"
+                    placeholder="City">
+                <input type="text"
+                    class="w-full rounded-xl p-5 bg-grayscale-50 text-grayscale-900 font-semibold placeholder:text-grayscale-500 font-urbanist placeholder:font-normal text-sm outline-none"
+                    placeholder="ZIP/Postal Code">
+                <button type="submit"
+                    class="bg-primary-500 rounded-2xl h-14 flex items-center justify-center cursor-pointer text-white text-base font-bold uppercase transition-all ">
+                    order for $7.99
+                </button>
+            </form>
+            <div class="flex items-center justify-center flex-col gap-1 mt-8">
+                <span class="font-urbanist text-grayscale-500 font-normal text-sm">
+                    By purchasing you agree to our
+                </span>
+                <a href="#" class="font-urbanist text-center text-primary-500 font-semibold text-sm">
+                    Terms of Service, Privacy Policy & Cookies Policy
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
