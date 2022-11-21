@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="min-h-screen w-screen flex flex-col  px-7 pt-10 pb-14  overflow-y-auto overflow-x-hidden">
+    <div class="min-h-screen w-screen h-full flex flex-col  px-7 pt-10 pb-14  overflow-y-auto overflow-x-hidden">
         <a href="./index.htm">
             <img src="./img/Arrow - Left.svg" alt="Back">
         </a>
@@ -59,16 +59,16 @@
             <span class="w-full h-px bg-grayscale-200"></span>
         </div>
         <form class="mt-8 w-full flex flex-col gap-5">
-            <div class=" w-full bg-grayscale-50 rounded-xl flex flex-row items-center p-5 gap-3">
+            <label class="w-full bg-grayscale-50 rounded-xl flex flex-row items-center p-5 gap-3">
                 <img src="./img/Message.svg" alt="Message">
                 <input type="Your email" required autocomplete="email"
-                    class="w-full font-urbanist font-normal text-sm text-grayscale-500 outline-none bg-grayscale-50 border-none"
+                    class=" w-full font-urbanist font-semibold text-grayscale-900 placeholder:font-normal text-sm placeholder:text-grayscale-500 outline-none bg-grayscale-50 border-none"
                     placeholder="Email">
-            </div>
+            </label>
             <div class=" w-full bg-grayscale-50 rounded-xl flex flex-row items-center p-5 gap-3">
                 <img src="./img/Lock.svg" alt="Message">
                 <input type="password" required autocomplete="current-password"
-                    class="w-full font-urbanist font-normal bg-grayscale-50 text-sm text-grayscale-500 outline-none  border-none"
+                    class="w-full font-urbanist  font-semibold text-grayscale-900 placeholder:font-normal text-sm placeholder:text-grayscale-500 outline-none bg-grayscale-50 border-none"
                     placeholder="Choose password">
                 <button type="button" class="ml-auto cursor-pointer ">
                     <img src="./img/Hide.svg" alt="Hide">
@@ -81,7 +81,7 @@
         </form>
         <div class="flex flex-col w-full gap-2 items-center justify-center mt-2">
             <span class="text-sm font-normal text-grayscale-500 font-urbanist">
-                By clicking “Sign Up” you agree to our 
+                By clicking “Sign Up” you agree to our
             </span>
             <a href="#" class="text-sm font-semibold text-primary-500 font-urbanist">
                 Terms of Service, Privacy Policy & Cookies Policy
@@ -89,3 +89,5 @@
         </div>
     </div>
 </body>
+
+</html>

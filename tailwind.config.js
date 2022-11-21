@@ -89,6 +89,9 @@ module.exports = {
       jakarta: ["Plus Jakarta Sans", "sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        "credit-card-texture": "url('./docs/img/credit-card-texture.png')",
+      },
       spacing: {
         85: "21rem",
         90: "23.75rem",
