@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./docs/*.htm"],
   theme: {
+    maxWidth: {
+      "1/2": "50%",
+      "2/3": "75%",
+    },
     screens: {
       sm: "480px",
       md: "768px",
@@ -90,6 +94,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
+        "user-panel-bg": "url('./docs/img/UserPanelBG.png')",
         "credit-card-texture": "url('./docs/img/credit-card-texture.png')",
       },
       spacing: {
@@ -105,8 +110,9 @@ module.exports = {
     },
   },
   plugins: [
+    require("@tailwindcss/line-clamp"),
     require("@tailwindcss/forms")({
-      strategy: "class", // only generate global styles
+      strategy: "class",
     }),
   ],
 };
