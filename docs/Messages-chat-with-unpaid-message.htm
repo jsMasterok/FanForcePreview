@@ -15,7 +15,7 @@
 <body>
     <div class="w-screen min-h-screen h-full  flex flex-col justify-between relative py-7 px-6">
         <!-- Top panel -->
-        <div class="w-full flex flex-col gap-6 z-20 bg-white top-0 pt-7  fixed left-0 px-6">
+        <div class="w-full flex flex-col gap-6 z-10 bg-white top-0 pt-7  fixed left-0 px-6">
             <div class=" w-full flex items-center  justify-between">
                 <a href="./index.htm">
                     <img class="w-6 h-6" src="./img/Arrow - Left.svg" alt="Arrow">
@@ -119,40 +119,32 @@
                     <!--  -->
                 </div>
                 <!--  -->
-                <!-- Message to with image-->
+                <!-- Message to -->
                 <div
-                    class="w-fit max-w-2/3  h-fit flex flex-col gap-1 px-5 py-3 mr-auto bg-grayscale-100 rounded-xl rounded-tl-none">
-                    <!-- IMG -->
-                    <div class="w-full h-52 rounded-xl overflow-hidden relative flex items-center justify-center">
-                        <!-- Blur for photo -->
-                        <div
-                            class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
-                            <img src="./img/UnpaidLock.svg" alt="Lock" class="">
-                        </div>
-                        <!--  -->
-                        <img src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
-                            alt="Photo" class="w-full h-full block">
+                    class="w-fit gap-2 max-w-2/3 flex items-baseline   px-5 py-3 mr-auto bg-grayscale-100 rounded-xl rounded-tl-none">
+                    <!-- Unpaid placeholder -->
+                    <div class="w-full flex items-start gap-1">
+                        <img src="./img/PrimaryLock.svg" alt="Lock">
+                        <p class="font-urbanist font-medium text-base text-grayscale-900">Tip to see the message</p>
                     </div>
                     <!--  -->
-                    <div class=" gap-2 w-full flex items-baseline">
-                        <!-- Message text -->
-                        <p class="font-urbanist font-medium text-base text-grayscale-900">
-                            I’ve been thing about you
-                        </p>
-                        <!--  -->
-                        <!-- Message time -->
-                        <span class="font-urbanist font-normal text-sm text-grayscale-600">
-                            23:07
-                        </span>
-                        <!--  -->
-                    </div>
+                    <!-- Message text -->
+                    <!-- <p class="font-urbanist font-medium text-base text-grayscale-900">
+                        I’ve been thing about you
+                    </p> -->
+                    <!--  -->
+                    <!-- Message time -->
+                    <span class="font-urbanist font-normal text-sm text-grayscale-600">
+                        23:07
+                    </span>
+                    <!--  -->
                 </div>
                 <!--  -->
             </div>
             <!--  -->
         </div>
         <!-- Message -->
-        <form class="w-full fixed bottom-0 left-0  bg-white px-6 pb-4 pt-2 flex items-center gap-2 z-20">
+        <form class="w-full fixed bottom-0 left-0  bg-white px-6 pb-4 pt-2 flex items-center gap-2">
             <button type="button"
                 class="w-6 h-6 rounded-md border-primary-500 border flex items-center justify-center text-base font-bold font-urbanist text-primary-500 flex-shrink-0">
                 +
@@ -176,5 +168,3 @@
         <!--  -->
     </div>
 </body>
-
-</html>
