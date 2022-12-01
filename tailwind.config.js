@@ -79,6 +79,7 @@ module.exports = {
       "deep-orange": "#FF5726",
       brown: "#7A5548",
       "blue-gray": "#607D8A",
+      transparent: "transparent",
       //
       // Colors Missing in Palitra
       "card-shadow-2": "#04060F0D",
