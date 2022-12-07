@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fanForce.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-screen min-h-screen h-full  flex flex-col justify-between relative py-7 px-6">
+        <!-- Top panel -->
+        <div class="flex w-full flex-col  z-10 bg-white top-0 pt-7 fixed left-0 px-6">
+            <div class=" w-full flex items-center  justify-between ">
+                <a href="./index.htm">
+                    <img src="./img/Arrow - Left.svg" alt="Arrow">
+                </a>
+                <!-- Heading -->
+                <span class="font-jakarta font-bold mx-auto text-grayscale-900 text-xl">
+                    Post Order
+                </span>
+            </div>
+        </div>
+        <!--  -->
+        <!-- Main container for content -->
+        <div class="w-full mt-7  flex flex-col flex-1">
+            <!-- Post Order -->
+            <div class="w-full flex flex-col gap-4 mt-4">
+                <!-- Order Photo -->
+                <div class="w-full h-96 overflow-hidden flex items-center justify-center rounded-xl">
+                    <img src="./img/portrait-beautiful-caucasian-sunbathed-woman-model-with-dark-long-hair-striped-swimsuit-posing-summer-beach-with-white-sand.png"
+                        alt="Post" class="w-full h-full block object-cover">
+                </div>
+                <!--  -->
+                <!-- Date -->
+                <span class="font-urbanist font-semibold text-sm text-grayscale-700 text-center">
+                    November 17 2022, 01:32 AM
+                </span>
+                <!--  -->
+                <!-- Price -->
+                <span class="font-jakarta text-3xl font-bold text-grayscale-900 text-center">
+                    $2.99
+                </span>
+                <!--  -->
+            </div>
+            <!--  -->
+            <span class="w-full h-px bg-grayscale-200 my-6"></span>
+            <!-- Profile -->
+            <div class="w-full flex items-center gap-5">
+                <div class="w-16 h-16 rounded-full  overflow-hidden flex items-center justify-center relative">
+                    <img src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
+                        alt="Post" class="w-full h-full block">
+                </div>
+                <div class="w-fit flex flex-col gap-1">
+                    <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                        morganlilyyy
+                    </h4>
+                    <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                        @morganlilyyy
+                    </span>
+                </div>
+                <a href="#"
+                    class="w-fit h-fit rounded-full border-2 border-primary-500 font-urbanist font-semibold text-sm text-primary-500 py-1 px-2">
+                    Creator's Profile
+                </a>
+            </div>
+            <!--  -->
+            <span class="w-full h-px bg-grayscale-200 my-6"></span>
+            <!-- FAQ -->
+            <p class="text-center font-urbanist font-medium text-sm text-grayscale-600">
+                This charge will appear discreetly on your credit card statement as CREATOR COMMERCE LTD.
+            </p>
+            <!--  -->
+            <!-- Transaction Details -->
+            <div class="w-full flex flex-col items-center mt-4 font-urbanist font-medium text-xs text-grayscale-500">
+                <span>
+                    Transaction ID 23A6HU IP
+                </span>
+                <span>
+                    Address 104.567.567
+                </span>
+                <span>
+                    IP Location Near New York (NY)
+                </span>
+            </div>
+            <!--  -->
+            <!-- Dispute -->
+            <button type="button" class="text-center font-urbanist font-semibold text-sm text-primary-500 mt-8">
+                Dispute this transaction
+            </button>
+            <!--  -->
+        </div>
+        <!--  -->
+        <!-- Popup with user actions -->
+        <!-- body -->
+        <div class="fixed w-full h-full top-0 left-0 right-0 bottom-0 bg-dark-1 bg-opacity-70 z-20">
+            <!-- Modal -->
+            <div
+                class="w-full bg-white h-fit absolute left-0 right-0 bottom-0 px-6 py-12 rounded-t-3xl flex flex-col items-center gap-3">
+                <span class="h-2 w-10 bg-grayscale-300 rounded-full absolute top-2"></span>
+                <button type="button"
+                    class="font-urbanist font-semibold text-sm text-primary-500 absolute left-5 top-2">
+                    Cancel
+                </button>
+                <h4 class="font-jakarta font-bold text-grayscale-900 text-lg">
+                    Title
+                </h4>
+                <textarea class="form-textarea w-full h-28 bg-grayscale-50 rounded-xl border-none focus:ring-0 font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-sm font-semibold text-grayscale-900" placeholder="Message"></textarea>
+                <button type="button"
+                    class="w-full text-center bg-primary-100 rounded-2xl py-4 uppercase text-primary-500 font-urbanist font-bold text-base flex justify-center items-center gap-2">
+                    Confirm
+                </button>
+            </div>
+            <!--  -->
+        </div>
+        <!--  -->
+    </div>
+</body>
+
+</html>

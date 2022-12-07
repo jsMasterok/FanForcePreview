@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fanForce.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-screen min-h-screen h-full  flex flex-col justify-between relative py-7 px-6">
+        <!-- Top panel -->
+        <div class=" w-full flex items-center z-10 bg-white top-0 pt-7 justify-between fixed left-0 px-6">
+            <a href="./index.htm">
+                <img src="./img/Arrow - Left.svg" alt="Arrow">
+            </a>
+            <!-- Head -->
+            <span class="font-jakarta font-bold text-grayscale-900 text-xl">New Post</span>
+            <!--  -->
+            <button type="button"
+                class="rounded-full w-fit h-fit px-2 py-1 border-2 border-disabled text-disabled text-sm font-semibold font-urbanist">
+                Preview
+            </button>
+        </div>
+        <!--  -->
+        <!-- Main container for content -->
+        <div class="w-full mt-8 flex flex-col flex-1">
+            <div class="w-full flex-1 flex flex-col justify-between mt-7">
+                <!-- Type block -->
+                <div class="w-full  flex flex-col gap-2">
+                    <!-- Types -->
+                    <div class="w-full flex items-center justify-between">
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeImage.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeVideo.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeChart.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeVoice.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeTime Circle.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeTip Circle.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                    </div>
+                    <!--  -->
+                    <!-- Message -->
+                    <textarea
+                        class="form-textarea w-full h-28 bg-grayscale-50 rounded-xl border-none focus:ring-0 font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-sm font-semibold text-grayscale-900"
+                        placeholder="Say something">
+                    </textarea>
+                    <!-- User message -->
+                    <p
+                        class="w-full p-3 bg-primary-100 rounded-lg font-urbanist font-medium text-sm text-grayscale-900">
+                        Time to make some cash! Upload your exclusives, we’ll secure it, censor it & help you put a
+                        price on it.
+                    </p>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <!-- Skip -->
+                <a href="#" class="text-center font-urbanist font-semibold text-base text-primary-500">
+                    I don't want to upload any free stuff
+                </a>
+                <!--  -->
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

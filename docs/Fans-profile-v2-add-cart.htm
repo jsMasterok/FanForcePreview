@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fanForce.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-screen min-h-screen h-full  flex flex-col justify-between relative py-7 px-6">
+        <!-- Top panel -->
+        <div class=" w-full flex items-center z-10 bg-white top-0 pt-7 justify-between fixed left-0 px-6">
+            <a href="./index.htm">
+                <img src="./img/Arrow - Left.svg" alt="Arrow">
+            </a>
+            <!--  -->
+            <span class="font-jakarta font-bold mx-auto text-grayscale-900 text-xl">Add cart</span>
+        </div>
+        <!--  -->
+        <!-- Main container for content -->
+        <div class="w-full mt-7  flex flex-col flex-1">
+            <form class="w-full flex flex-col gap-5 mt-5">
+                <div class="flex flex-col w-full gap-2">
+                    <h3 class="font-urbanist font-semibold text-lg text-grayscale-900">
+                        Billing Details
+                    </h3>
+                    <p class="font-normal text-base font-urbanist text-grayscale-900">
+                        We are fully compliant with payment Card Industry Security Standards.
+                    </p>
+                </div>
+                <div class="w-full flex items-center bg-grayscale-50 rounded-xl gap-2 px-5 py-2">
+                    <img src="./img/AmericaFlag.svg" alt="Flag">
+                    <select
+                        class="form-select w-full bg-grayscale-50 border-none ring-black focus:border-none focus:ring-black font-urbanist text-base font-semibold text-grayscale-900 disabled:text-grayscale-500">
+                        <option value="#" selected disabled>
+                            Country
+                        </option>
+                        <option value="1">
+                            USA
+                        </option>
+                        <option value="2">
+                            Canada
+                        </option>
+                    </select>
+                </div>
+                <div class="w-full flex items-center bg-grayscale-50 rounded-xl gap-2 px-5 py-2">
+                    <select
+                        class="form-select w-full bg-grayscale-50 border-none ring-black focus:border-none focus:ring-black font-urbanist text-base font-semibold text-grayscale-900 disabled:text-grayscale-500">
+                        <option value="#" selected disabled class="text-grayscale-500">
+                            State/Province
+                        </option>
+                        <option value="1">
+                            USA
+                        </option>
+                        <option value="2">
+                            Canada
+                        </option>
+                    </select>
+                </div>
+                <input type="text"
+                    class=" w-full px-5 py-4 bg-grayscale-50 rounded-xl font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-base font-semibold text-grayscale-900"
+                    placeholder="Street">
+                <input type="text"
+                    class=" w-full px-5 py-4 bg-grayscale-50 rounded-xl font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-base font-semibold text-grayscale-900"
+                    placeholder="City">
+                <input type="text"
+                    class=" w-full px-5 py-4 bg-grayscale-50 rounded-xl font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-base font-semibold text-grayscale-900"
+                    placeholder="Zip/Postal Code">
+                <h3 class="font-urbanist font-semibold text-lg text-grayscale-900">
+                    Card Details
+                </h3>
+                <input type="email"
+                    class=" w-full px-5 py-4 bg-grayscale-50 rounded-xl font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-base font-semibold text-grayscale-900"
+                    placeholder="Email">
+                <input type="email"
+                    class=" w-full px-5 py-4 bg-grayscale-50 rounded-xl font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-base font-semibold text-grayscale-900"
+                    placeholder="Name an the card">
+                <input type="number"
+                    class=" w-full  appearance-none px-5 py-4 bg-grayscale-50 rounded-xl font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-base font-semibold text-grayscale-900"
+                    placeholder="Card Number">
+                <div class="w-full flex items-center justify-between gap-5">
+                    <input type="text"
+                        class=" w-full  appearance-none px-5 py-4 bg-grayscale-50 rounded-xl font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-base font-semibold text-grayscale-900"
+                        placeholder="Expiration Date">
+                    <div class="w-full flex items-center bg-grayscale-50 rounded-xl gap-2 px-5 py-2">
+                        <input type="text"
+                            class=" w-full  appearance-none px-5 py-2 bg-grayscale-50 rounded-xl font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-base font-semibold text-grayscale-900"
+                            placeholder="CVC">
+                        <button>
+                            <img src="./img/Info Circle.svg" alt="Info">
+                        </button>
+                    </div>
+                </div>
+                <button type="submit"
+                    class="bg-primary-500 rounded-2xl h-14 flex items-center justify-center cursor-pointer text-white text-base font-bold uppercase transition-all ">
+                    Submit
+                </button>
+                <button type="submit"
+                    class="bg-primary-100 rounded-2xl h-14 flex items-center justify-center cursor-pointer text-primary-500 text-base font-bold uppercase transition-all ">
+                    Cancel
+                </button>
+                <label class="flex flex-row items-start  gap-3">
+                    <input type="checkbox" class="form-checkbox rounded-lg  text-primary-500  w-6 h-6">
+                    <span class="p-0 m-0 ml-auto w-72  font-urbanist text-grayscale-900 text-sm font-medium">
+                        By clicking on JOIN <a class="text-primary-500" href="#">GOT.FANS</a>, I acknowledge that I am
+                        18+ years
+                        old and accept both the
+                        <a href="#" class="text-primary-500">
+                            Terms of Service
+                            & Privacy Policy
+                        </a>
+                    </span>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

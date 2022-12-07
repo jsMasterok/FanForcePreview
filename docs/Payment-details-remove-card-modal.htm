@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fanForce.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-fit h-fit relative">
+        <!-- Modal -->
+        <div class="fixed bg-black bg-opacity-70 w-full h-full flex items-center justify-center z-50">
+            <div class="flex flex-col w-85 rounded-3xl bg-white p-8 gap-8">
+                <h4 class="text-center font-jakarta font-bold text-2xl text-grayscale-900">
+                    Remove Card
+                </h4>
+                <p class="font-normal font-urbanist text-base text-grayscale-900 text-center">
+                    Are you sure you want to remove credit card?
+                </p>
+                <div class="w-full flex flex-col gap-2">
+                    <a href="./index.htm"
+                        class="w-full bg-primary-100 rounded-6xl h-14 flex items-center justify-center font-urbanist text-base font-bold text-primary-500 uppercase">
+                        Yes
+                    </a>
+                    <a href="./index.htm"
+                        class="w-full bg-primary-100 rounded-6xl h-14 flex items-center justify-center font-urbanist text-base font-bold text-primary-500 uppercase">
+                        No
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="w-screen min-h-screen h-full  flex flex-col justify-between relative py-7 px-6">
+            <!-- Top panel -->
+            <div class="flex w-full flex-col z-10 bg-white top-0 pt-7 fixed left-0 px-6">
+                <div class=" w-full flex items-center  justify-between ">
+                    <a href="./index.htm">
+                        <img src="./img/Arrow - Left.svg" alt="Arrow">
+                    </a>
+                    <!-- Heading -->
+                    <span class="font-jakarta font-bold mx-auto text-grayscale-900 text-xl">
+                        Payment Details
+                    </span>
+                    <!-- Button -->
+                    <button type="button" class="h-7 w-7">
+                        <img src="./img/Edit.svg" alt="Edit" class="w-full h-full block">
+                    </button>
+                    <!--  -->
+                </div>
+            </div>
+            <!--  -->
+            <!-- Main container for content -->
+            <div class="w-full mt-7  flex flex-col flex-1 mb-32">
+                <!-- Card container -->
+                <div class="flex items-center justify-center gap-5 overflow-hidden w-full mt-9 relative h-fit pb-10">
+                    <!-- Card -->
+                    <div
+                        class="w-80 rounded-3xl bg-gradient-to-br to-gradient-red-to from-gradient-red-from h-52 overflow-hidden flex-shrink-0 flex-grow-0">
+                        <div
+                            class="w-full h-full flex flex-col justify-between px-6 py-8  bg-[url('./img/credit-card-texture.png')]">
+                            <div class="flex items-center w-full justify-between">
+                                <h3 class="font-urbanist font-bold text-lg text-white">
+                                    Current Balance
+                                </h3>
+                                <span class="font-jakarta font-bold text-2xl text-white">
+                                    $150.20
+                                </span>
+                            </div>
+                            <div class="flex items-center w-full justify-between">
+                                <h5 class="text-white font-urbanist font-medium text-sm">
+                                    My Fanforce Wallet
+                                </h5>
+                                <div class="h-9 w-9 overflow-hidden rounded-full">
+                                    <img src="./img/CardLogo.svg" alt="Logo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!-- Pagination bullets -->
+                    <div
+                        class="w-fit mx-auto h-fit flex flex-row items-center justify-center gap-3 absolute bottom-2 z-20">
+                        <span class="w-2 h-2 rounded-full bg-gradient-to-r from-gradient-red-from to-gradient-red-to">
+
+                        </span>
+                        <span class="w-2 h-2 rounded-full bg-grayscale-200">
+
+                        </span>
+                        <span class="w-2 h-2 rounded-full bg-grayscale-200">
+
+                        </span>
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <span class="w-full h-px bg-grayscale-200 my-6"></span>
+                <!-- Orders List -->
+                <div class="w-full flex flex-col gap-6">
+                    <h6 class="text-center font-urbanist font-semibold text-sm text-grayscale-700">
+                        Today
+                    </h6>
+                    <!-- Post Order -->
+                    <div class="w-full flex items-center gap-5">
+                        <div class="w-16 h-16 rounded-xl  overflow-hidden flex items-center justify-center relative">
+                            <!-- Blur for photo -->
+                            <div
+                                class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
+                                <img src="./img/UnpaidLock.svg" alt="Lock" class="">
+                            </div>
+                            <!--  -->
+                            <img src="./img/portrait-beautiful-caucasian-sunbathed-woman-model-with-dark-long-hair-striped-swimsuit-posing-summer-beach-with-white-sand.png"
+                                alt="Post" class="w-full h-full block">
+                        </div>
+                        <div class="w-fit flex flex-col gap-1">
+                            <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                                morganlilyyy
+                            </h4>
+                            <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                                post order
+                            </span>
+                        </div>
+                        <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                            -$2.99
+                        </span>
+                    </div>
+                    <!--  -->
+                    <!-- Post Tip -->
+                    <div class="w-full flex items-center gap-5">
+                        <div class="w-16 h-16 rounded-xl  overflow-hidden flex items-center justify-center relative">
+                            <!-- Blur for photo -->
+                            <div
+                                class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
+                                <img src="./img/UnpaidLock.svg" alt="Lock" class="">
+                            </div>
+                            <!--  -->
+                            <img src="./img/portrait-beautiful-caucasian-sunbathed-woman-model-with-dark-long-hair-striped-swimsuit-posing-summer-beach-with-white-sand.png"
+                                alt="Post" class="w-full h-full block">
+                        </div>
+                        <div class="w-fit flex flex-col gap-1">
+                            <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                                morganlilyyy
+                            </h4>
+                            <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                                post tip
+                            </span>
+                        </div>
+                        <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                            -$2.99
+                        </span>
+                    </div>
+                    <!--  -->
+                    <!-- Monthly Subs -->
+                    <div class="w-full flex items-center gap-5">
+                        <div class="w-16 h-16 rounded-full  overflow-hidden flex items-center justify-center relative">
+                            <img src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
+                                alt="Post" class="w-full h-full block">
+                        </div>
+                        <div class="w-fit flex flex-col gap-1">
+                            <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                                morganlilyyy
+                            </h4>
+                            <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                                Monthly Subscription
+                            </span>
+                        </div>
+                        <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                            -$2.99
+                        </span>
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+            </div>
+            <div class="w-full  fixed bottom-0 left-0 right-0 p-6 flex flex-col gap-4 z-20 bg-white">
+                <button type="button"
+                    class="w-full h-fit py-4 bg-primary-500 rounded-2xl uppercase font-urbanist font-bold text-white text-base">
+                    Top Up Balance
+                </button>
+                <button type="button"
+                    class="w-full h-fit py-4 bg-primary-100 rounded-2xl uppercase font-urbanist font-bold text-primary-500 text-base">
+                    Remove Card
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fanForce.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-screen min-h-screen h-full  flex flex-col justify-between relative py-7 px-6">
+        <!-- Top panel -->
+        <div class=" w-full flex items-center z-10 bg-white top-0 pt-7 justify-between fixed left-0 px-6">
+            <a href="./index.htm">
+                <img src="./img/Arrow - Left.svg" alt="Arrow">
+            </a>
+            <!-- Head -->
+            <span class="font-jakarta font-bold mx-auto text-grayscale-900 text-xl">
+                Blocked Locations
+            </span>
+            <!--  -->
+        </div>
+        <!--  -->
+        <!-- Main container for content -->
+        <div class="w-full mt-8  flex flex-col flex-1">
+            <div class="flex flex-col gap-3 w-full">
+                <p class="font-urbanist text-sm font-normal text-grayscale-900 text-center mt-8">
+                    Time to make some cash! Upload your exclusives, we’ll secure it, censor it & help you put a price on
+                    it.
+                </p>
+                <!-- Locations Blocked list -->
+                <div class="w-full flex items-center gap-2 flex-wrap px-5 py-3 bg-grayscale-50 rounded-xl">
+                    <!-- Location Item -->
+                    <span
+                        class="w-fit h-fit rounded-full bg-primary-500 px-3 py-1 font-urbanist font-semibold text-sm text-white flex items-center gap-1">
+                        Canada
+                        <button type="button">
+                            <img src="./img/Close Square.svg" alt="Close" class="w-5 h-5 block">
+                        </button>
+                    </span>
+                    <!--  -->
+                    <!-- Location Item -->
+                    <span
+                        class="w-fit h-fit rounded-full bg-primary-500 px-3 py-1 font-urbanist font-semibold text-sm text-white flex items-center gap-1">
+                        Canada
+                        <button type="button">
+                            <img src="./img/Close Square.svg" alt="Close" class="w-5 h-5 block">
+                        </button>
+                    </span>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <!-- Search Block -->
+                <div class="w-full flex flex-col gap-4 mt-10">
+                    <h4 class="font-jakarta font-bold  text-grayscale-900 text-xl">
+                        Search Location
+                    </h4>
+                    <div class="w-full px-5 py-3 bg-grayscale-100 rounded-xl flex items-center gap-1">
+                        <img src="./img/search.svg" alt="">
+                        <input type="text"
+                            class="w-full bg-grayscale-100 outline-none placeholder:font-normal font-semibold text-grayscale-900 font-urbanist"
+                            placeholder="Search">
+                        <!-- Button for clear text input,show this  after input state was changing -->
+                        <button class="" type="button">
+                            <img src="./img/GrayClose Square.svg" alt="Close">
+                        </button>
+                        <!--  -->
+                    </div>
+                    <!-- Search Result -->
+                    <div class="w-full flex flex-col gap-2">
+                        <!-- Result Item -->
+                        <div class="w-full flex items-center justify-between p-5 bg-grayscale-50">
+                            <div class="w-fit flex items-center gap-1">
+                                <img src="./img/AmericaFlag.svg" alt="Flag" class="w-6 h-6 block">
+                                <span class="font-urbanist text-sm font-semibold text-grayscale-900">
+                                    USA
+                                </span>
+                            </div>
+                            <button class="w-5 h-5" type="button">
+                                <img src="./img/Plus-Red.svg" alt="Plus" class="w-full h-full block">
+                            </button>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <!-- Privacy Settings -->
+                <div class="flex flex-col w-full gap-7 mt-11">
+                    <label class="w-full flex items-center justify-between">
+                        <span class="font-urbanist font-medium text-base text-grayscale-900">
+                            Privacy setting 1
+                        </span>
+                        <input type="checkbox"
+                            class="form-checkbox text-primary-500 w-6 h-6 rounded-lg focus:ring-0 focus:outline-none">
+                    </label>
+                    <label class="w-full flex items-center justify-between">
+                        <span class="font-urbanist font-medium text-base text-grayscale-900">
+                            Privacy setting 2
+                        </span>
+                        <input type="checkbox"
+                            class="form-checkbox text-primary-500 w-6 h-6 rounded-lg focus:ring-0 focus:outline-none">
+                    </label>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
