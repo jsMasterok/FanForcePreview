@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fanForce.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-screen min-h-screen h-full  flex flex-col justify-between relative py-7 px-6">
+        <!-- Main container for content -->
+        <div class="w-full  mb-14 flex flex-col flex-1">
+            <!-- Card -->
+            <div
+                class="w-full pb-16 fixed top-0 left-0 right-0 z-10 bg-gradient-to-br to-gradient-red-to from-gradient-red-from h-1/2 overflow-hidden flex-shrink-0 flex-grow-0">
+                <div
+                    class="w-full h-full flex flex-col justify-between px-6 py-8  bg-[url('./img/credit-card-texture.png')]">
+                    <div class="w-full flex flex-col gap-2">
+                        <div class="flex items-center w-full justify-between">
+                            <h3 class="font-urbanist font-bold text-lg text-white">
+                                Current Balance
+                            </h3>
+                            <span class="font-jakarta font-bold text-2xl text-white">
+                                $150.20
+                            </span>
+                        </div>
+                        <div class="flex items-center w-full justify-between">
+                            <div class="w-fit flex items-center gap-1">
+                                <img src="./img/BlalnceLOader.svg" alt="Spinner" class="animate-spin">
+                                <h4 class="font-urbanist font-medium text-base text-white">
+                                    Pending Balance
+                                </h4>
+                            </div>
+                            <span class="font-jakarta font-medium text-base text-white">
+                                $150.20
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex items-center w-full justify-between">
+                        <h5 class="text-white font-urbanist font-medium text-sm">
+                            My Fanforce Wallet
+                        </h5>
+                        <div class="h-9 w-9 overflow-hidden rounded-full">
+                            <img src="./img/CardLogo.svg" alt="Logo">
+                        </div>
+                    </div>
+                    <a href="#" class="w-full border-2 border-white text-center py-2 font-bold text-lg font-urbanist rounded-full text-white">
+                        Withdraw
+                    </a>
+                </div>
+            </div>
+            <!--  -->
+            <!-- Menu  -->
+            <div
+                class="w-full fixed bottom-16 z-20 left-0 h-1/2 right-0 px-6 py-1 bg-white rounded-t-5xl flex flex-col items-center">
+                <span class="h-2 w-10 bg-grayscale-300 rounded-full absolute top-2"></span>
+                <div class="w-full h-full flex flex-1 flex-col  justify-between my-4 relative">
+                    <!-- Tips List -->
+                    <div class="w-full h-full  flex flex-col gap-6 overflow-scroll">
+                        <!-- Payment Item -->
+                        <div class="w-full flex items-center gap-5">
+                            <div
+                                class="w-16 h-16 rounded-full  overflow-hidden flex items-center justify-center relative">
+                                <img src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
+                                    alt="Post" class="w-full h-full block">
+                            </div>
+                            <div class="w-fit flex flex-col gap-1">
+                                <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                                    morganlilyyy
+                                </h4>
+                                <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                                    Monthly Subscription
+                                </span>
+                            </div>
+                            <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                                -$2.99
+                            </span>
+                        </div>
+                        <!--  -->
+                        <!-- Post Tip -->
+                        <div class="w-full flex items-center gap-5">
+                            <div
+                                class="w-16 h-16 rounded-xl  overflow-hidden flex items-center justify-center relative">
+                                <!-- Blur for photo -->
+                                <div
+                                    class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
+                                    <img src="./img/UnpaidLock.svg" alt="Lock" class="">
+                                </div>
+                                <!--  -->
+                                <img src="./img/portrait-beautiful-caucasian-sunbathed-woman-model-with-dark-long-hair-striped-swimsuit-posing-summer-beach-with-white-sand.png"
+                                    alt="Post" class="w-full h-full block">
+                            </div>
+                            <div class="w-fit flex flex-col gap-1">
+                                <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                                    morganlilyyy
+                                </h4>
+                                <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                                    post tip
+                                </span>
+                            </div>
+                            <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                                -$2.99
+                            </span>
+                        </div>
+                        <!--  -->
+                        <!-- Post Tip (Pending) -->
+                        <div class="w-full flex items-center gap-5">
+                            <div
+                                class="w-16 h-16 rounded-xl  overflow-hidden flex items-center justify-center relative">
+                                <!-- Blur for photo pending -->
+                                <div
+                                    class="w-full h-full absolute top-0 left-0 z-10  rounded-lg flex items-center justify-center">
+                                    <img src="./img/BlalnceLOader.svg" alt="Lock" class="animate-spin">
+                                </div>
+                                <!--  -->
+                                <img src="./img/portrait-beautiful-caucasian-sunbathed-woman-model-with-dark-long-hair-striped-swimsuit-posing-summer-beach-with-white-sand.png"
+                                    alt="Post" class="w-full h-full block">
+                            </div>
+                            <div class="w-fit flex flex-col gap-1">
+                                <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                                    morganlilyyy
+                                </h4>
+                                <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                                    pending
+                                </span>
+                            </div>
+                            <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                                -$2.99
+                            </span>
+                        </div>
+                        <!--  -->
+                        <!-- Post Tip (Pending) -->
+                        <div class="w-full flex items-center gap-5">
+                            <div
+                                class="w-16 h-16 rounded-xl  overflow-hidden flex items-center justify-center relative">
+                                <!-- Blur for photo pending -->
+                                <div
+                                    class="w-full h-full absolute top-0 left-0 z-10  rounded-lg flex items-center justify-center">
+                                    <img src="./img/BlalnceLOader.svg" alt="Lock" class="animate-spin">
+                                </div>
+                                <!--  -->
+                                <img src="./img/portrait-beautiful-caucasian-sunbathed-woman-model-with-dark-long-hair-striped-swimsuit-posing-summer-beach-with-white-sand.png"
+                                    alt="Post" class="w-full h-full block">
+                            </div>
+                            <div class="w-fit flex flex-col gap-1">
+                                <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                                    morganlilyyy
+                                </h4>
+                                <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                                    pending
+                                </span>
+                            </div>
+                            <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                                -$2.99
+                            </span>
+                        </div>
+                        <!--  -->
+                        <!-- Post Tip (Pending) -->
+                        <div class="w-full flex items-center gap-5">
+                            <div
+                                class="w-16 h-16 rounded-xl  overflow-hidden flex items-center justify-center relative">
+                                <!-- Blur for photo pending -->
+                                <div
+                                    class="w-full h-full absolute top-0 left-0 z-10  rounded-lg flex items-center justify-center">
+                                    <img src="./img/BlalnceLOader.svg" alt="Lock" class="animate-spin">
+                                </div>
+                                <!--  -->
+                                <img src="./img/portrait-beautiful-caucasian-sunbathed-woman-model-with-dark-long-hair-striped-swimsuit-posing-summer-beach-with-white-sand.png"
+                                    alt="Post" class="w-full h-full block">
+                            </div>
+                            <div class="w-fit flex flex-col gap-1">
+                                <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                                    morganlilyyy
+                                </h4>
+                                <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                                    pending
+                                </span>
+                            </div>
+                            <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                                -$2.99
+                            </span>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <!--  -->
+                    <div class="w-full h-fit bg-white py-1 mb-8">
+                        <a href="#"
+                            class="w-full flex items-center justify-center text-center py-4 bg-primary-500 rounded-2xl text-white font-bold text-base font-urbanist uppercase">
+                            Top UP balance
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+        <!-- User Navigate and actions panel -->
+        <div class="w-full flex justify-between items-center fixed bottom-0 z-30 left-0 px-6 h-20 bg-grayscale-50">
+            <!-- USer panel links -->
+            <a href="#" class="flex justify-center items-center flex-col w-fit">
+                <img class="w-6 h-6" src="./img/Home.svg" alt="Home">
+                <span class="font-urbanist text-xs text-grayscale-600 font-medium">Home</span>
+            </a>
+            <a href="#" class="flex justify-center items-center flex-col w-fit">
+                <img class="w-6 h-6" src="./img/UserPanelSearch.svg" alt="">
+                <span class="font-urbanist text-xs text-grayscale-600 font-medium">Search</span>
+            </a>
+            <a href="#" class="flex justify-center items-center flex-col w-fit">
+                <img class="w-6 h-6" src="./img/UserPanelVideo.svg" alt="Home">
+                <span class="font-urbanist text-xs text-grayscale-600 font-medium">Peeps</span>
+            </a>
+            <a href="#" class="flex justify-center items-center flex-col w-fit">
+                <img class="w-6 h-6" src="./img/PrimaryProfile.svg" alt="">
+                <span class="font-urbanist text-xs text-primary-500 font-medium">Profile</span>
+            </a>
+            <!--  -->
+        </div>
+        <!--  -->
+    </div>
+</body>
+
+</html>

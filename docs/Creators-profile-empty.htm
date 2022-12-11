@@ -34,96 +34,130 @@
         <!--  -->
         <!-- Main container for content -->
         <div class="w-full mt-7 mb-12 flex flex-col flex-1">
+            <!-- User Description block -->
+            <div class="w-full flex flex-col items-center justify-center gap-2 mt-4">
+                <!-- User Photo -->
+                <div class="w-32 h-43 overflow-hidden flex items-center justify-center rounded-full">
+                    <img class="w-full h-full block"
+                        src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
+                        alt="User Pick">
+                </div>
+                <!--  -->
+                <h1 class="font-jakarta text-grayscale-900 font-bold text-2xl">
+                    Morgan Lily
+                </h1>
+                <!-- User Location -->
+                <span class="font-urbanist text-grayscale-700 font-semibold text-sm">
+                    Copenhagen, Denmark
+                </span>
+                <!--  -->
+                <!-- Short description -->
+                <p class="font-urbanist text-grayscale-700 font-semibold text-sm w-full text-center line-clamp-2">
+                    <!-- Empty -->
+                </p>
+                <!--  -->
+                <!-- Show more info -->
+                <span class="text-primary-500 font-urbanist text-sm font-semibold cursor-pointer">
+                    Add short bio
+                </span>
+                <!--  -->
+            </div>
+            <!--  -->
             <!-- User Statisticks -->
             <div class="mt-6 flex items-center justify-between">
                 <div class="flex flex-col gap-1 items-center">
                     <span class="font-jakarta text-2xl font-bold text-900">
-                        267
+                        1
                     </span>
                     <p class="font-urbanist text-800 font-normal text-sm">
-                        Posts
+                        Fan
                     </p>
                 </div>
                 <div class="flex flex-col gap-1 items-center border-grayscale-200 border-l border-r px-5">
                     <span class="font-jakarta text-2xl font-bold text-900">
-                        24,278
-                    </span>
-                    <p class="font-urbanist text-800 font-normal text-sm">
-                        Followers
-                    </p>
-                </div>
-                <div class="flex flex-col gap-1 items-center">
-                    <span class="font-jakarta text-2xl font-bold text-900">
-                        237
+                        3
                     </span>
                     <p class="font-urbanist text-800 font-normal text-sm">
                         Following
                     </p>
                 </div>
+                <div class="flex flex-col gap-1 items-center">
+                    <span class="font-jakarta text-2xl font-bold text-900">
+                        2
+                    </span>
+                    <p class="font-urbanist text-800 font-normal text-sm">
+                        Subscribing
+                    </p>
+                </div>
+            </div>
+            <!--  -->
+            <!-- Action Buttons -->
+            <div class="mt-6 flex items-center justify-between gap-3">
+                <button
+                    class="w-full flex gap-3 items-center justify-center flex-1 rounded-6xl bg-white h-11 text-primary-500 border-2 border-primary-500 font-bold text-lg font-urbanist">
+                    <img src="./img/PrimaryActivity.svg" alt="Stat">
+                    Statistics
+                </button>
+                <button
+                    class="w-full flex gap-3 items-center justify-center flex-1 rounded-6xl bg-white h-11 text-primary-500 border-2 border-primary-500 font-bold text-lg font-urbanist">
+                    <img src="./img/PrimaryFolder.svg" alt="Folder">
+                    Vault
+                </button>
             </div>
             <!--  -->
             <span class="w-full h-px bg-grayscale-200 my-6"></span>
+            <!-- Fixed storries array -->
+            <div class="flex items-center justify-start gap-4 mb-10 overflow-hidden -mr-6">
+                <div class="flex flex-col items-center gap-1">
+                    <button
+                        class="rounded-full w-20 h-20 flex items-center justify-center bg-white border border-grayscale-600 overflow-hidden font-urbanist text-lg font-bold">
+                        +
+                    </button>
+                    <span class="font-urbanist font-semibold text-grayscale-900 text-sm rounded-full">
+                        New
+                    </span>
+                </div>
+            </div>
+            <!--  -->
             <!-- Tabs -->
-            <div class="w-full flex items-center justify-between">
+            <div class="w-full flex items-center justify-between ">
                 <div class="flex flex-col w-full h-fit">
                     <div
                         class="w-full flex items-center justify-center gap-2 text-primary-500 font-urbanist font-semibold text-base pb-3">
-                        7 days
+                        <img src="./img/Feed.svg" alt="Feed">
+                        Feed
                     </div>
                     <span class="w-full h-1 rounded-6xl bg-primary-500"></span>
                 </div>
                 <div class="flex flex-col w-full h-fit">
                     <div
                         class="w-full flex items-center justify-center gap-2 text-grayscale-500 font-urbanist font-semibold text-base pb-3">
-                        31 days
+                        <img src="./img/VaultVideo.svg" alt="Vault">
+                        Peeps
                     </div>
                     <span class="w-full h-1  bg-grayscale-200"></span>
                 </div>
                 <div class="flex flex-col w-full h-fit">
                     <div
                         class="w-full flex items-center justify-center gap-2 text-grayscale-500 font-urbanist font-semibold text-base pb-3">
-                        12 months
+                        <img src="./img/2UserShop.svg" alt="Shop">
+                        Shop
                     </div>
                     <span class="w-full h-1  bg-grayscale-200"></span>
                 </div>
             </div>
             <!--  -->
-            <!-- Followers stat -->
-            <div class="flex flex-col gap-2 mt-6">
-                <!-- Stat Info -->
-                <div class="flex items-center justify-between">
-                    <h3 class="font-urbanist font-bold text-lg text-grayscale-900">
-                        New Followers
-                    </h3>
-                    <span class="font-urbanist text-sm text-grayscale-900 font-medium">
-                        Avg: <b class="text-base font-bold">3 200</b>
-                    </span>
-                </div>
-                <!--  -->
-                <!-- StatickPlaceholder -->
-                <div class="w-full h-48">
-                    <img src="./img/StatPlaceholder.svg" alt="Placeholder" class="w-full h-full block">
-                </div>
-                <!--  -->
-            </div>
-            <!--  -->
-            <!-- Subs stat -->
-            <div class="flex flex-col gap-2 mt-6">
-                <!-- Stat Info -->
-                <div class="flex items-center justify-between">
-                    <h3 class="font-urbanist font-bold text-lg text-grayscale-900">
-                        New Followers
-                    </h3>
-                    <span class="font-urbanist text-sm text-grayscale-900 font-medium">
-                        Avg: <b class="text-base font-bold">3 200</b>
-                    </span>
-                </div>
-                <!--  -->
-                <!-- StatickPlaceholder -->
-                <div class="w-full h-48">
-                    <img src="./img/StatPlaceholder.svg" alt="Placeholder" class="w-full h-full block">
-                </div>
-                <!--  -->
+            <!-- Block if user not posts anything -->
+            <div class="flex items-center justify-center gap-1 my-14">
+                <span class="font-urbanist text-sm font-normal text-grayscale-900">
+                    Press
+                </span>
+                <button class="w-5 h-5 overflow-hidden rounded-full flex items-center justify-center bg-primary-500" type="button">
+                    <img src="./img/Plus-Red.svg" alt="">
+                </button>
+                <span class="font-urbanist text-sm font-normal text-grayscale-900">
+                    below to add your first post
+                </span>
             </div>
             <!--  -->
         </div>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fanForce.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-screen min-h-screen h-full  flex flex-col justify-between relative py-7 px-6">
+        <!-- Top panel -->
+        <div class="w-full flex flex-col gap-6 z-30 bg-white top-0 pt-7  fixed left-0 px-6">
+            <div class=" w-full flex items-center  ">
+                <a href="./index.htm">
+                    <img class="w-6 h-6" src="./img/Arrow - Left.svg" alt="Arrow">
+                </a>
+                <h1 class="font-jakarta text-grayscale-900 font-bold w-fit mx-auto text-xl">
+                    Statistics
+                </h1>
+            </div>
+            <!-- Tabs -->
+            <div class="w-full flex items-center justify-between">
+                <div class="flex flex-col w-full h-fit">
+                    <div
+                        class="w-full flex items-center justify-center gap-2 text-primary-500 font-urbanist font-semibold text-base pb-3">
+                        Day
+                    </div>
+                    <span class="w-full h-1 rounded-6xl bg-primary-500"></span>
+                </div>
+                <div class="flex flex-col w-full h-fit">
+                    <div
+                        class="w-full flex items-center justify-center gap-2 text-grayscale-500 font-urbanist font-semibold text-base pb-3">
+                        Week
+                    </div>
+                    <span class="w-full h-1  bg-grayscale-200"></span>
+                </div>
+                <div class="flex flex-col w-full h-fit">
+                    <div
+                        class="w-full flex items-center justify-center gap-2 text-grayscale-500 font-urbanist font-semibold text-base pb-3">
+                        Months
+                    </div>
+                    <span class="w-full h-1  bg-grayscale-200"></span>
+                </div>
+                <div class="flex flex-col w-full h-fit">
+                    <div
+                        class="w-full flex items-center justify-center gap-2 text-grayscale-500 font-urbanist font-semibold text-base pb-3">
+                        Custom
+                    </div>
+                    <span class="w-full h-1  bg-grayscale-200"></span>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+        <!--  -->
+        <!-- Main container for content -->
+        <div class="w-full  mt-24   flex flex-col flex-1">
+            <!-- Info Block -->
+            <div class="w-full flex flex-col mt-9 gap-2">
+                <!-- Money Show -->
+                <div class="w-fit flex items-start gap-1">
+                    <span class="font-bold text-grayscale-500 font-jakarta text-2xl">$</span>
+                    <!-- Money Balance Count -->
+                    <span class="font-jakarta text-4xl text-grayscale-900 font-bold">
+                        69,700
+                    </span>
+                    <!--  -->
+                    <!-- Profit Or Minus stats -->
+                    <span
+                        class="w-fit h-fit rounded-full bg-succes font-urbanist text-base font-semibold text-white py-1 px-3">
+                        <!--If minus use  "bg-error"-->
+                        + 2,2%
+                    </span>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <!-- EarningData -->
+                <span class="font-urbanist font-semibold text-sm text-grayscale-500">
+                    Money Earning at Oct 17 (Today)
+                </span>
+                <!--  -->
+            </div>
+            <!--  -->
+            <!-- Block with chart -->
+            <div class="w-full flex items-center justify-between gap-3 flex-nowrap mt-7 relative pb-7">
+                <!-- Chart Placeholder -->
+                <img src="./img/PlaceholderChart.svg" alt="testImage" class="w-full">
+                <!--  -->
+                <!-- Data For Chart -->
+                <div class="flex flex-col w-full gap-2">
+                    <!-- data row -->
+                    <div class="w-full flex items-center justify-between">
+                        <!-- data type -->
+                        <div class="w-fit flex items-center gap-2">
+                            <span
+                                class="w-5 h-3 rounded-full bg-gradient-to-br from-gradient-green-from to-gradient-green-to"></span>
+                            <p class="font-urbanist text-sm font-bold text-grayscale-700">
+                                Subscriptions
+                            </p>
+                        </div>
+                        <!--  -->
+                        <!-- Money Count -->
+                        <span class="font-urbanist text-sm font-bold text-grayscale-900">
+                            $7,600
+                        </span>
+                        <!--  -->
+                    </div>
+                    <!--  -->
+                    <!-- data row -->
+                    <div class="w-full flex items-center justify-between">
+                        <!-- data type -->
+                        <div class="w-fit flex items-center gap-2">
+                            <span
+                                class="w-5 h-3 rounded-full bg-gradient-to-br from-gradient-red-from to-gradient-red-to"></span>
+                            <p class="font-urbanist text-sm font-bold text-grayscale-700">
+                                Posts
+                            </p>
+                        </div>
+                        <!--  -->
+                        <!-- Money Count -->
+                        <span class="font-urbanist text-sm font-bold text-grayscale-900">
+                            $7,600
+                        </span>
+                        <!--  -->
+                    </div>
+                    <!--  -->
+                    <!-- data row -->
+                    <div class="w-full flex items-center justify-between">
+                        <!-- data type -->
+                        <div class="w-fit flex items-center gap-2">
+                            <span
+                                class="w-5 h-3 rounded-full bg-gradient-to-br from-gradient-blue-from to-gradient-blue-to"></span>
+                            <p class="font-urbanist text-sm font-bold text-grayscale-700">
+                                Tips
+                            </p>
+                        </div>
+                        <!--  -->
+                        <!-- Money Count -->
+                        <span class="font-urbanist text-sm font-bold text-grayscale-900">
+                            $7,600
+                        </span>
+                        <!--  -->
+                    </div>
+                    <!--  -->
+                    <!-- data row -->
+                    <div class="w-full flex items-center justify-between">
+                        <!-- data type -->
+                        <div class="w-fit flex items-center gap-2">
+                            <span
+                                class="w-5 h-3 rounded-full bg-gradient-to-br from-gradient-yellow-from to-gradient-yellow-to"></span>
+                            <p class="font-urbanist text-sm font-bold text-grayscale-700">
+                                Messages
+                            </p>
+                        </div>
+                        <!--  -->
+                        <!-- Money Count -->
+                        <span class="font-urbanist text-sm font-bold text-grayscale-900">
+                            $7,600
+                        </span>
+                        <!--  -->
+                    </div>
+                    <!--  -->
+                    <!-- data row -->
+                    <div class="w-full flex items-center justify-between">
+                        <!-- data type -->
+                        <div class="w-fit flex items-center gap-2">
+                            <span class="w-5 h-3 rounded-full bg-disabled"></span>
+                            <p class="font-urbanist text-sm font-bold text-grayscale-700">
+                                Refferals
+                            </p>
+                        </div>
+                        <!--  -->
+                        <!-- Money Count -->
+                        <span class="font-urbanist text-sm font-bold text-grayscale-900">
+                            $7,600
+                        </span>
+                        <!--  -->
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <!-- Pagination -->
+                <div
+                    class="w-fit mx-auto h-fit flex flex-row absolute bottom-0 left-1/2 -translate-x-1/2 items-center justify-center gap-3">
+                    <span class="w-2 h-2 rounded-full bg-gradient-to-r from-gradient-red-from to-gradient-red-to">
+
+                    </span>
+                    <span class="w-2 h-2 rounded-full bg-grayscale-300">
+
+                    </span>
+                    <span class="w-2 h-2 rounded-full bg-grayscale-300">
+
+                    </span>
+                </div>
+                <!--  -->
+            </div>
+            <!--  -->
+            <span class="w-full h-1  bg-grayscale-200 my-6"></span>
+            <!-- Transactions List -->
+            <div class="w-full flex flex-col gap-6">
+                <!-- Date -->
+                <span class="text-center font-urbanist text-sm font-semibold text-grayscale-700">
+                    Transactions
+                </span>
+                <!--  -->
+                <!-- Payment Item -->
+                <div class="w-full flex items-center gap-5">
+                    <div class="w-16 h-16 rounded-full  overflow-hidden flex items-center justify-center relative">
+                        <img src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
+                            alt="Post" class="w-full h-full block">
+                    </div>
+                    <div class="w-fit flex flex-col gap-1">
+                        <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                            morganlilyyy
+                        </h4>
+                        <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                            Monthly Subscription
+                        </span>
+                    </div>
+                    <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                        $2.99
+                    </span>
+                </div>
+                <!--  -->
+                <!-- Payment Item -->
+                <div class="w-full flex items-center gap-5">
+                    <div class="w-16 h-16 rounded-full  overflow-hidden flex items-center justify-center relative">
+                        <img src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
+                            alt="Post" class="w-full h-full block">
+                    </div>
+                    <div class="w-fit flex flex-col gap-1">
+                        <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                            morganlilyyy
+                        </h4>
+                        <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                            Monthly Subscription
+                        </span>
+                    </div>
+                    <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                        $2.99
+                    </span>
+                </div>
+                <!--  -->
+                <!-- Payment Item -->
+                <div class="w-full flex items-center gap-5">
+                    <div class="w-16 h-16 rounded-full  overflow-hidden flex items-center justify-center relative">
+                        <img src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
+                            alt="Post" class="w-full h-full block">
+                    </div>
+                    <div class="w-fit flex flex-col gap-1">
+                        <h4 class="font-urbanist font-semibold text-base text-grayscale-900">
+                            morganlilyyy
+                        </h4>
+                        <span class="font-urbanist font-medium text-sm text-grayscale-700">
+                            Monthly Subscription
+                        </span>
+                    </div>
+                    <span class="ml-auto font-urbanist font-semibold text-base text-grayscale-900">
+                        $2.99
+                    </span>
+                </div>
+                <!--  -->
+            </div>
+            <!--  -->
+        </div>
+        <!--  -->
+    </div>
+</body>

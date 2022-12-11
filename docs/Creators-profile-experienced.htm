@@ -22,9 +22,14 @@
             <!-- User NickName -->
             <span class="font-jakarta font-bold text-grayscale-900 text-xl">morganlilyyy</span>
             <!--  -->
-            <button type="button">
-                <img src="./img/More Circle.svg" alt="More">
-            </button>
+            <div class="w-fit flex items-center gap-2">
+                <button type="button">
+                    <img src="./img/Notification.svg" alt="More">
+                </button>
+                <button type="button">
+                    <img src="./img/Setting.svg" alt="More">
+                </button>
+            </div>
         </div>
         <!--  -->
         <!-- Main container for content -->
@@ -92,13 +97,13 @@
             <div class="mt-6 flex items-center justify-between gap-3">
                 <button
                     class="w-full flex gap-3 items-center justify-center flex-1 rounded-6xl bg-white h-11 text-primary-500 border-2 border-primary-500 font-bold text-lg font-urbanist">
-                    <img src="./img/PrimaryProfile.svg" alt="FollowUP">
-                    Follow
+                    <img src="./img/PrimaryActivity.svg" alt="Stat">
+                    Statistics
                 </button>
                 <button
                     class="w-full flex gap-3 items-center justify-center flex-1 rounded-6xl bg-white h-11 text-primary-500 border-2 border-primary-500 font-bold text-lg font-urbanist">
-                    <img src="./img/Chat.svg" alt="Message">
-                    Message
+                    <img src="./img/PrimaryFolder.svg" alt="Folder">
+                    Vault
                 </button>
             </div>
             <!--  -->
@@ -106,23 +111,12 @@
             <!-- Fixed storries array -->
             <div class="flex items-center justify-start gap-4 mb-10 overflow-hidden -mr-6">
                 <div class="flex flex-col items-center gap-1">
-                    <div
-                        class="rounded-full w-20 h-20 flex items-center justify-center bg-gradient-to-tr from-gradient-red-from to-gradient-red-to p-1 overflow-hidden ">
-                        <img src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
-                            alt="" class="w-full h-full block rounded-full">
-                    </div>
+                    <button
+                        class="rounded-full w-20 h-20 flex items-center justify-center bg-white border border-grayscale-600 overflow-hidden font-urbanist text-lg font-bold">
+                        +
+                    </button>
                     <span class="font-urbanist font-semibold text-grayscale-900 text-sm rounded-full">
-                        Hangout
-                    </span>
-                </div>
-                <div class="flex flex-col items-center gap-1">
-                    <div
-                        class="rounded-full w-20 h-20 flex items-center justify-center bg-gradient-to-tr from-gradient-red-from to-gradient-red-to p-1 overflow-hidden ">
-                        <img src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
-                            alt="" class="w-full h-full block rounded-full">
-                    </div>
-                    <span class="font-urbanist font-semibold text-grayscale-900 text-sm rounded-full">
-                        Hangout
+                        New
                     </span>
                 </div>
                 <div class="flex flex-col items-center gap-1">
@@ -158,7 +152,7 @@
             </div>
             <!--  -->
             <!-- Tabs -->
-            <div class="w-full flex items-center justify-between mt-7">
+            <div class="w-full flex items-center justify-between ">
                 <div class="flex flex-col w-full h-fit">
                     <div
                         class="w-full flex items-center justify-center gap-2 text-primary-500 font-urbanist font-semibold text-base pb-3">
@@ -189,12 +183,6 @@
             <div class="w-full  mt-3  grid grid-cols-3 grid-flow-dense gap-1">
                 <!-- Post items -->
                 <div class="w-full h-auto flex justify-center items-center overflow-hidden rounded-lg relative">
-                    <!-- Blur for photo -->
-                    <div
-                        class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
-                        <img src="./img/UnpaidLock.svg" alt="Lock" class="">
-                    </div>
-                    <!--  -->
                     <img class="w-full h-full"
                         src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
                         alt="Post">
@@ -215,12 +203,6 @@
                         alt="Post">
                 </div>
                 <div class="w-full h-auto flex justify-center items-center overflow-hidden rounded-lg relative">
-                    <!-- Blur for photo -->
-                    <div
-                        class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
-                        <img src="./img/UnpaidLock.svg" alt="Lock" class="">
-                    </div>
-                    <!--  -->
                     <img class="w-full h-full"
                         src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
                         alt="Post">
@@ -231,12 +213,6 @@
                         alt="Post">
                 </div>
                 <div class="w-full h-auto flex justify-center items-center overflow-hidden rounded-lg relative">
-                    <!-- Blur for photo -->
-                    <div
-                        class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
-                        <img src="./img/UnpaidLock.svg" alt="Lock" class="">
-                    </div>
-                    <!--  -->
                     <img class="w-full h-full"
                         src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
                         alt="Post">
@@ -253,92 +229,26 @@
                 </div>
                 <!--  -->
             </div>
-            <!--  -->
-            <!-- Block when user don't subscribe to Girl  -->
-            <div class="w-full  my-7 flex flex-col gap-3">
-                <p class="font-urbanist font-medium text-sm text-grayscale-900 text-center">
-                    You’ve seen all content for the last two months of your current subscription
-                </p>
-                <h4 class="font-jakarta text-center text-grayscale-900 text-lg font-bold">
-                    Subscribe for more older content
-                </h4>
-                <a href="#"
-                    class="w-full text-center py-4 text-white bg-primary-500 rounded-2xl uppercase  font-urbanist font-bold text-base">
-                    Subscribe $19.99
-                </a>
-            </div>
-            <!--  -->
-            <!-- Hidden content -->
-            <div class="w-full  mt-3  grid grid-cols-3 grid-flow-dense gap-1">
-                <!-- Post items -->
-                <div class="w-full h-auto flex justify-center items-center overflow-hidden rounded-lg relative">
-                    <!-- Blur for photo -->
-                    <div
-                        class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
-                        <img src="./img/UnpaidLock.svg" alt="Lock" class="">
-                    </div>
-                    <!--  -->
-                    <img class="w-full h-full"
-                        src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
-                        alt="Post">
-                </div>
-                <div class="w-full h-auto flex justify-center items-center overflow-hidden rounded-lg relative">
-                    <!-- Blur for photo -->
-                    <div
-                        class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
-                        <img src="./img/UnpaidLock.svg" alt="Lock" class="">
-                    </div>
-                    <!--  -->
-                    <img class="w-full h-full"
-                        src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
-                        alt="Post">
-                </div>
-                <div class="w-full h-auto flex justify-center items-center overflow-hidden rounded-lg relative">
-                    <!-- Blur for photo -->
-                    <div
-                        class="w-full h-full absolute top-0 left-0 z-10 backdrop-blur-sm rounded-lg flex items-center justify-center">
-                        <img src="./img/UnpaidLock.svg" alt="Lock" class="">
-                    </div>
-                    <!--  -->
-                    <img class="w-full h-full"
-                        src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png"
-                        alt="Post">
-                </div>
-            </div>
-            <!--  -->
         </div>
         <!-- User Navigate and actions panel -->
-        <div
-            class="w-full flex justify-between items-center fixed bottom-0 z-10 left-0 px-6 h-20  bg-[url('./img/UserPanelBG.png')] bg-cover bg-center">
+        <div class="w-full flex justify-between items-center fixed bottom-0 z-30 left-0 px-6 h-20 bg-grayscale-50">
             <!-- USer panel links -->
-            <div class="w-fit flex items-center gap-8">
-                <a href="#" class="flex justify-center items-center flex-col w-fit">
-                    <img class="w-6 h-6" src="./img/Home.svg" alt="Home">
-                    <span class="font-urbanist text-xs text-grayscale-600 font-medium">Home</span>
-                </a>
-                <a href="#" class="flex justify-center items-center flex-col w-fit">
-                    <img class="w-6 h-6" src="./img/UserPanelSearch.svg" alt="">
-                    <span class="font-urbanist text-xs text-grayscale-600 font-medium">Search</span>
-                </a>
-            </div>
-            <!--  -->
-            <!-- User Panel Action button -->
-            <button type="button"
-                class="w-16 h-16 rounded-full overflow-hidden relative bottom-5 right-1 flex justify-center items-center bg-primary-500 ">
-                <img src="./img/UserPanelUnlock.svg" alt="Unlock">
-            </button>
-            <!--  -->
-            <!-- USer panel links -->
-            <div class="w-fit flex items-center gap-8">
-                <a href="#" class="flex justify-center items-center flex-col w-fit">
-                    <img class="w-6 h-6" src="./img/UserPanelVideo.svg" alt="Home">
-                    <span class="font-urbanist text-xs text-grayscale-600 font-medium">Peeps</span>
-                </a>
-                <a href="#" class="flex justify-center items-center flex-col w-fit">
-                    <img class="w-6 h-6" src="./img/UserPanelProfile.svg" alt="">
-                    <span class="font-urbanist text-xs text-grayscale-600 font-medium">Profile</span>
-                </a>
-            </div>
+            <a href="#" class="flex justify-center items-center flex-col w-fit">
+                <img class="w-6 h-6" src="./img/Home.svg" alt="Home">
+                <span class="font-urbanist text-xs text-grayscale-600 font-medium">Home</span>
+            </a>
+            <a href="#" class="flex justify-center items-center flex-col w-fit">
+                <img class="w-6 h-6" src="./img/UserPanelSearch.svg" alt="">
+                <span class="font-urbanist text-xs text-grayscale-600 font-medium">Search</span>
+            </a>
+            <a href="#" class="flex justify-center items-center flex-col w-fit">
+                <img class="w-6 h-6" src="./img/UserPanelVideo.svg" alt="Home">
+                <span class="font-urbanist text-xs text-grayscale-600 font-medium">Peeps</span>
+            </a>
+            <a href="#" class="flex justify-center items-center flex-col w-fit">
+                <img class="w-6 h-6" src="./img/PrimaryProfile.svg" alt="">
+                <span class="font-urbanist text-xs text-primary-500 font-medium">Profile</span>
+            </a>
             <!--  -->
         </div>
         <!--  -->

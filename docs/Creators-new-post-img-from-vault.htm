@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fanForce.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-screen min-h-screen h-full  flex flex-col justify-between relative py-7 px-6">
+        <!-- Top panel -->
+        <div class=" w-full flex items-center z-10 bg-white top-0 pt-7 justify-between fixed left-0 px-6">
+            <a href="./index.htm">
+                <img src="./img/Arrow - Left.svg" alt="Arrow">
+            </a>
+            <!-- Head -->
+            <span class="font-jakarta font-bold text-grayscale-900 text-xl">New Post</span>
+            <!--  -->
+            <button type="button"
+                class="rounded-full w-fit h-fit px-2 py-1 border-2 border-primary-500 text-primary-500 text-sm font-semibold font-urbanist">
+                Preview
+            </button>
+        </div>
+        <!--  -->
+        <!-- Main container for content -->
+        <div class="w-full mt-8 flex flex-col flex-1">
+            <div class="w-full flex-1 flex flex-col justify-between mt-7">
+                <!-- Type block -->
+                <div class="w-full  flex flex-col gap-2">
+                    <!-- Types -->
+                    <div class="w-full flex items-center justify-between">
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PrymaryImagePostType.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeVideo.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeChart.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeVoice.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeTime Circle.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                        <button class="w-auto h-fit block">
+                            <img src="./img/PostTypeTip Circle.svg" class="w-full h-full block" alt="PostType">
+                        </button>
+                    </div>
+                    <!--  -->
+                    <!-- Message for user -->
+                    <div
+                        class="w-full  my-4 p-3 flex items-center bg-primary-100 rounded-lg justify-between font-urbanist font-medium text-sm text-grayscale-900">
+                        <div class="flex w-fit gap-1 items-center">
+                            <span>
+                                Press
+                            </span>
+                            <img src="./img/Hide.svg" alt="eye" class="w-6 h-6">
+                            <span>
+                                to make the media paid
+                            </span>
+                        </div>
+                        <button type="button" class="w-6 h-6">
+                            <img src="./img/Close-Red.svg" alt="close" class="w-full h-full">
+                        </button>
+                    </div>
+                    <!--  -->
+                    <!-- Message -->
+                    <div class="w-full rounded-xl p-1 h-fit  relative">
+                        <textarea
+                            class="form-textarea  w-full h-28 bg-grayscale-50 rounded-xl border-none focus:ring-0 font-urbanist placeholder:text-grayscale-500 placeholder:font-normal text-sm font-semibold text-grayscale-900"
+                            placeholder="Say something">
+                    </textarea>
+                        <button
+                            class="w-28 h-6 absolute bottom-1 right-1 flex items-center flex-nowrap font-urbanist font-medium text-xs text-grayscale-900">
+                            <img src="./img/PrimaryShow.svg" alt="Show" class="w-full h-full">
+                            <span class="w-full">
+                                Hide Text
+                            </span>
+                        </button>
+                    </div>
+                    <!--  -->
+                    <!-- Button for add image -->
+                    <button
+                        class="w-full my-4 h-32 rounded-lg bg-grayscale-50 gap-12 flex flex-col items-center justify-center"
+                        type="button">
+                        <img src="./img/GreyPlus.svg" alt="Add">
+                        <span class="font-urbanist text-sm font-normal text-grayscale-500">
+                            Add a photo
+                        </span>
+                    </button>
+                    <!--  -->
+                    <!-- Tabs -->
+                    <div class="w-full flex items-center justify-between">
+                        <div class="flex flex-col w-full h-fit">
+                            <div
+                                class="w-full flex items-center justify-center gap-2 text-grayscale-500 font-urbanist font-semibold text-base pb-3">
+                                <img src="./img/GreyUpload.svg" alt="Upload">
+                                Phone
+                            </div>
+                            <span class="w-full h-1 rounded-6xl bg-grayscale-200"></span>
+                        </div>
+                        <div class="flex flex-col w-full h-fit">
+                            <div
+                                class="w-full flex items-center justify-center gap-2 text-primary-500 font-urbanist font-semibold text-base pb-3">
+                                <img src="./img/PrimaryFolder.svg" alt="Folder">
+                                Vault
+                            </div>
+                            <span class="w-full h-1  bg-primary-500"></span>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!-- Upload from vault tab -->
+                    <div class="w-full mt-6  border grid gap-5 grid-cols-3">
+                        <!-- Folder -->
+                        <button
+                            class="w-full overflow-hidden relative box-border h-auto flex flex-col gap-2 items-center justify-center rounded-xl">
+                            <img src="./img/Folder.svg" alt="FolderICon" class="w-14 h-14">
+                            <span class="font-urbanist font-semibold text-sm text-grayscale-900">
+                                Folder Name
+                            </span>
+                        </button>
+                        <!--  -->
+                        <!-- Folder -->
+                        <button
+                            class="w-full overflow-hidden relative box-border h-auto flex flex-col gap-2 items-center justify-center rounded-xl">
+                            <img src="./img/Folder.svg" alt="FolderICon" class="w-14 h-14">
+                            <span class="font-urbanist font-semibold text-sm text-grayscale-900">
+                                Folder Name
+                            </span>
+                        </button>
+                        <!--  -->
+                        <!-- Folder -->
+                        <button
+                            class="w-full overflow-hidden relative box-border h-auto flex flex-col gap-2 items-center justify-center rounded-xl">
+                            <img src="./img/Folder.svg" alt="FolderICon" class="w-14 h-14">
+                            <span class="font-urbanist font-semibold text-sm text-grayscale-900">
+                                Folder Name
+                            </span>
+                        </button>
+                        <!--  -->
+                        <!-- Folder -->
+                        <button
+                            class="w-full overflow-hidden relative box-border h-auto flex flex-col gap-2 items-center justify-center rounded-xl">
+                            <img src="./img/Folder.svg" alt="FolderICon" class="w-14 h-14">
+                            <span class="font-urbanist font-semibold text-sm text-grayscale-900">
+                                Folder Name
+                            </span>
+                        </button>
+                        <!--  -->
+                        <!-- Folder -->
+                        <button
+                            class="w-full overflow-hidden relative box-border h-auto flex flex-col gap-2 items-center justify-center rounded-xl">
+                            <img src="./img/Folder.svg" alt="FolderICon" class="w-14 h-14">
+                            <span class="font-urbanist font-semibold text-sm text-grayscale-900">
+                                Folder Name
+                            </span>
+                        </button>
+                        <!--  -->
+                        <!-- Photo -->
+                        <button
+                            class="w-full overflow-hidden relative box-border h-auto flex flex-col gap-2 items-center justify-center rounded-xl">
+                            <img src="./img/back-young-beautiful-smiling-blond-female-trendy-summer-clothes-sexy-carefree-woman-posing-near-pink-wall-studio-positive-model-having-fun-indoors-cheerful-happy 1.png" alt="" class="w-full h-full block">
+                        </button>
+                        <!--  -->
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
